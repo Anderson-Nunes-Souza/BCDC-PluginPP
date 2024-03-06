@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+      href="https://www.paypalobjects.com/webstatic/en_US/developer/docs/css/cardfields.css" />
+    <title>PayPal JS SDK Advanced Integration - Checkout Flow</title>
+  </head>
+  <body>
+    <h1>
+      MARCA 	:VISA <br>
+      NÚMERO	: 4450 1723 4649 9373 <br>
+      BANCO	: ABC CAPITAL, S.A. INSTITUCION DE BANCA MULTIPLE<br>
+      NOME		: Evald Ribeiro<br>
+      Street:  LAURO VILLAR 102, MODELO, 87360<br>
+      City:   Tamaulipas<br>
+      State/province/area:    Matamoros<br>
+      Phone number:  +52 868.813-6961<br>
+      Zip code:  87360<br>
+      Country calling code:  +52<br>
+      Country:  México<br>
+      DINHEIRO	: $860  <br>
+      CVV/CVC	: 628 <br>
+      VALIDADE	: 09/2027<br>
+      PIN		: 8599<br>
+    </h1>
+    <div id="paypal-button-container" class="paypal-button-container"></div>
+    <div id="card-form" class="card_container">
+      <div id="card-name-field-container"></div>
+      <div id="card-number-field-container"></div>
+      <div id="card-expiry-field-container"></div>
+      <div id="card-cvv-field-container"></div>
+      <button id="multi-card-field-button" type="button">Pay now with Card</button>
+    </div>
+
+    <p id="result-message"></p>
+    <script src="https://www.paypal.com/sdk/js?components=buttons,card-fields&client-id=AaKMfYEIZIw-GtYuc24yyOK5R4Vvtcp2S5SVxLRQdjTayU1B9hEwsMq5J-vzzP5vmGLdVqENMeAm7Qhv&currency=MXN&locale=es_MX"></script>
+    <script src="checkout.js"></script>
+
+  </body>
+</html>
